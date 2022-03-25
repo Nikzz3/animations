@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <h2>Scroll Indicator</h2>
+      <h2>Scroll Progress</h2>
       <div class="progress-container">
         <div class="progress-bar" :style="scrollProgressStyles"></div>
       </div>
