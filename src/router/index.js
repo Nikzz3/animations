@@ -19,6 +19,11 @@ const routes = [
     path: '/svg',
     name: 'SVG',
     component: () => import('../views/SVG.vue')
+  },
+  {
+    path: '/video-scrolling',
+    name: 'VideScrolling',
+    component: () => import('../views/VideoScrolling.vue')
   }
 ];
 
